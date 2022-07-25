@@ -1,17 +1,16 @@
 
-let input = prompt("Ingresar una numero para calular el factorial, si desea salir ingresar 'exit'");
+let factorial = 0;
+let input = prompt("Ingresar una numero para calcular el factorial.\nSi desea salir ingresar 'exit'");
 
-factorial=input;
 while (input!="exit"){
+    factorial=input;
     for(let i=1;i<input;i++){
 
         factorial = factorial*i;
     
     }
     alert("El factorial de " + input + " es: "+factorial);
-
-    input = prompt("Ingresar una numero para calular el factorial, si desea salir ingresar 'exit'");
-    factorial=input;
+    input = prompt("Ingresar una numero para calcular el factorial.\nSi desea salir ingresar 'exit'");
 }
 
 
